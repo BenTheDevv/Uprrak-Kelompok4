@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukan Asal Kenyang - Kelompok 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <button id="btn-back-home" class="hidden" onclick="showSection('home')">🏠 Dashboard</button>
+
+    <div id="home" class="home-container fade-in">
+        <div class="hero-content">
+            <h1>Bukan Asal Kenyang</h1>
+            <p>Edukasi gizi remaja untuk masa depan yang lebih sehat.</p>
+        </div>
+        
+        <div class="menu-grid">
+            <button onclick="showSection('artikel-word')" class="menu-btn word">
+                📝 Baca Artikel (Word)
+            </button>
+
+            <button onclick="showSection('presentasi')" class="menu-btn presentasi">
+                🍽️ Galeri Gizi Makanan
+            </button>
+        </div>
+    </div>
+
+    <div id="artikel-word" class="container hidden section-artikel fade-in">
+        <div class="kertas-word">
+            <h1 style="text-align: center; text-transform: uppercase; margin-bottom: 5px;">Bukan Asal Kenyang</h1>
+            
+            <div class="anggota-kelompok">
+                <p><b>Kelompok 4:</b></p>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>- Martha Vianti</li>
+                    <li>- Cleo Delvian H.</li>
+                    <li>- Rowena Fumiko</li>
+                    <li>- Benedict Xavier J.</li>
+                    <li>- Josia Exaudi P.</li>
+                </ul>
+            </div>
+            <hr style="border: 1px solid #000; margin: 20px 0;">
+            
+            <p>
+                Di zaman sekarang, banyak anak remaja yang jarang mengonsumsi sayur, buah-buahan dan makanan sehat. 
+                Hal ini disebabkan oleh berbagai alasan, seperti rasa sayur yang kurang disukai dan lebih tertarik pada makanan cepat saji. 
+                Kebiasaan tersebut dapat berdampak buruk bagi kesehatan tubuh dalam jangka panjang. 
+                Kurangnya asupan sayur membuat tubuh kekurangan vitamin dan serat yang penting. 
+                Oleh karena itu, penting untuk meningkatkan kesadaran remaja akan pentingnya mengonsumsi makanan sehat sejak dini.
+            </p>
+            
+            <p>
+                Konsumsi sayur dan buah di kalangan remaja Indonesia masih tergolong rendah, berada di bawah angka minimal 400-600 gram per hari yang direkomendasikan WHO. 
+                Survei Kesehatan Indonesia 2023 menunjukkan bahwa sebagian besar masyarakat Indonesia, termasuk remaja, hanya mengonsumsi 1-2 porsi buah dan sayur per hari dalam seminggu. 
+                Secara umum, konsumsi harian buah dan sayur di Indonesia masih jauh dari ideal, yaitu hanya sekitar 57,1 gram untuk buah dan 33,5 gram untuk sayur, dibandingkan dengan rekomendasi 400 gram per hari. 
+                Kondisi ini dapat berdampak pada kekurangan vitamin dan serat, meningkatkan risiko penyakit kronis di kemudian hari. 
+                Oleh karena itu, diperlukan upaya peningkatan kesadaran akan pentingnya gizi seimbang, edukasi tentang manfaat sayur dan buah, serta penyediaan akses yang lebih mudah dan terjangkau terhadap makanan sehat, termasuk promosi pola makan B2SA (Bergizi, Berimbang, Sehat, dan Aman) untuk mengoptimalkan gizi remaja.
+            </p>
+
+            <p style="font-weight: bold; margin-top: 20px; text-indent: 0;">
+                Salah satu contoh menu makanan sehat dan bergizi seimbang adalah:
+            </p>
+
+            <ol class="list-menu">
+                <li><b>Nasi Putih</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Karbohidrat, protein, zat besi, magnesium, fosfor, kalium.</li>
+                        <li><b>Fungsi:</b> Sumber energi utama bagi tubuh (terutama otak), Magnesium membantu membentuk tulang & atur kontraksi otot.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Bayam</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Protein, serat, vitamin A, C, K, antioksidan (lutein, karotenoid).</li>
+                        <li><b>Fungsi:</b> Antioksidan menangkal radikal bebas, Vitamin A & C tingkatkan imun.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Tahu</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Protein nabati, kalsium, fosfor, zat besi, isoflavon.</li>
+                        <li><b>Fungsi:</b> Membangun jaringan tubuh, menjaga kesehatan tulang dan gigi.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Tempe</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Protein nabati lengkap, serat, kalsium, isoflavon, probiotik.</li>
+                        <li><b>Fungsi:</b> Mendukung pertumbuhan jaringan, Probiotik baik untuk usus.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Ayam</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Protein berkualitas tinggi, vitamin B6, B3, selenium, fosfor.</li>
+                        <li><b>Fungsi:</b> Membangun otot, mendukung metabolisme dan fungsi saraf.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Mangga</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Karbohidrat, serat, vitamin A, C, antioksidan.</li>
+                        <li><b>Fungsi:</b> Meningkatkan daya tahan tubuh, mempercepat penyembuhan luka, menjaga mata.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Jeruk</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Vitamin C, flavonoid (hesperidin), serat, kalium.</li>
+                        <li><b>Fungsi:</b> Meningkatkan imun, menjaga kesehatan jantung dan tekanan darah.</li>
+                    </ul>
+                </li>
+                <br>
+                <li><b>Air Putih</b>
+                    <ul>
+                        <li><b>Kandungan utama:</b> Air murni, bisa mengandung sedikit mineral.</li>
+                        <li><b>Fungsi:</b> Mengatur suhu tubuh, membantu pencernaan & cegah sembelit.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <p>
+                Oleh karena itu, pola makan sehat dan bergizi seimbang sangatlah penting bagi kesehatan remaja. 
+                Dengan meningkatkan konsumsi sayur, buah-buahan, dan makanan bergizi lainnya, remaja dapat memperoleh manfaat yang optimal untuk pertumbuhan, perkembangan, dan pencegahan penyakit. 
+                Mari kita dorong remaja Indonesia untuk menerapkan pola makan yang bergizi, berimbang, sehat, dan aman demi mewujudkan generasi yang sehat, kuat, dan produktif.
+            </p>
+            
+            <br>
+            <p style="text-align: center; font-weight: bold; text-indent: 0;">--- Selesai ---</p>
+        </div>
+    </div>
+
+    <div id="presentasi" class="hidden section-presentasi fade-up">
+        <header>
+            <h1>Galeri Gizi</h1>
+            <p>Klik gambar makanan untuk melihat Kandungan & Fungsinya!</p>
+        </header>
+        
+        <section id="galeri-makanan">
+            <div class="food-grid">
+                <button onclick="openFoodModal('nasi')" class="food-card"><img src="img/nasi.jpg" alt="Nasi"><span>Nasi Putih</span></button>
+                <button onclick="openFoodModal('bayam')" class="food-card"><img src="img/bayam.jpg" alt="Bayam"><span>Sayur Bayam</span></button>
+                <button onclick="openFoodModal('tahu')" class="food-card"><img src="img/tahu.jpg" alt="Tahu"><span>Tahu</span></button>
+                <button onclick="openFoodModal('tempe')" class="food-card"><img src="img/tempe.webp" alt="Tempe"><span>Tempe</span></button>
+                <button onclick="openFoodModal('ayam')" class="food-card"><img src="img/ayam.jpg" alt="Ayam"><span>Ayam</span></button>
+                <button onclick="openFoodModal('pisang')" class="food-card"><img src="img/pisang.jpg" alt="Pisang"><span>Buah Pisang</span></button>
+                <button onclick="openFoodModal('jeruk')" class="food-card"><img src="img/jeruk.jpg" alt="Jeruk"><span>Buah Jeruk</span></button>
+                <button onclick="openFoodModal('air')" class="food-card"><img src="img/air.jpg" alt="Air"><span>Air Putih</span></button>
+            </div>
+        </section>
+
+        <div id="food-modal-overlay" class="modal-overlay hidden" onclick="closeFoodModal()">
+            <div class="modal-content fade-up" onclick="event.stopPropagation()">
+                <span class="close-btn" onclick="closeFoodModal()">&times;</span>
+                <h2 id="modal-title" style="color: #27ae60;">Nama Makanan</h2>
+                <div id="modal-body" style="text-align: left; line-height: 1.6;"></div>
+            </div>
+        </div>
+        
+        <footer><p>© 2026 Kelompok 4 - Bukan Asal Kenyang</p></footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
